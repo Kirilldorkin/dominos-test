@@ -44,13 +44,7 @@ export default function Home() {
       </div>
       <div>
         <label htmlFor="cvc">CVC код:</label>
-        <input
-          type="text"
-          id="cvc"
-          value={cvc}
-          onChange={(e) => setCVC(e.target.value)}
-          required
-        />
+        <input type="text" id="cvc" value={cvc} onChange={(e) => setCVC(e.target.value)} required />
       </div>
       <div>
         <button type="submit">Отправить</button>
